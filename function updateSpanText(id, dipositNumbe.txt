@@ -1,0 +1,18 @@
+        const currentDiposit = document.getElementById("currentDiposit").innerText;
+           const currentDipositNumber = parseFloat(currentDiposit);
+           const totalDiposit = dipositNumber + currentDipositNumber;
+           console.log(totalDiposit);
+           document.getElementById("currentDiposit").innerText = totalDiposit;
+
+           const currentBalace = document.getElementById("currentBalane").innerText;
+           const currentBalanceNumber = parseFloat(currentBalace);
+           const totalBalance = dipositNumber + currentBalanceNumber;
+           document.getElementById("currentBalane").innerText = totalBalance;
+
+
+
+
+
+
+
+           
